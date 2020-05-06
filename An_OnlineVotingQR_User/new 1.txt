@@ -1,0 +1,16 @@
+<script type="text/javascript">
+   setTimeout(function(){
+       location.reload();
+   },10000);
+</script>
+
+<script>
+const Http = new XMLHttpRequest();
+const url='http://10.0.0.16:8888/BlockChainGraph/graph';
+Http.open("GET", url);
+Http.send();
+
+Http.onreadystatechange = (e) => {
+  console.log(Http.responseText)
+}
+</script>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.micrometer</groupId>
+  <artifactId>micrometer-core</artifactId>
+  <version>1.0.0-rc.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.spectator</groupId>
+      <artifactId>spectator-api</artifactId>
+      <version>0.57.1</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.dropwizard.metrics</groupId>
+      <artifactId>metrics-core</artifactId>
+      <version>3.2.4</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>21.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.github.ben-manes.caffeine</groupId>
+      <artifactId>caffeine</artifactId>
+      <version>2.3.0</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.2.3</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>io.projectreactor</groupId>
+      <artifactId>reactor-core</artifactId>
+      <version>3.1.0.BUILD-SNAPSHOT</version>
+      <scope>compile</scope>
+      <optional>true</optional>
+    </dependency>
+  </dependencies>
+  <name>micrometer-core</name>
+  <description>Application monitoring instrumentation facade</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>io.micrometer#micrometer-core;1.0.0-rc.1</nebula_Implementation_Title>
+    <nebula_Implementation_Version>1.0.0-rc.1</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>jschneider</nebula_Built_By>
+    <nebula_Built_OS>Mac OS X</nebula_Built_OS>
+    <nebula_Build_Date>2017-09-14_23:16:50</nebula_Build_Date>
+    <nebula_Gradle_Version>4.0.1</nebula_Gradle_Version>
+    <nebula_Module_Source>/micrometer-core</nebula_Module_Source>
+    <nebula_Module_Origin>git@github.com:micrometer-metrics/micrometer.git</nebula_Module_Origin>
+    <nebula_Change>258d804</nebula_Change>
+    <nebula_Branch>master</nebula_Branch>
+    <nebula_Build_Host>jons-mbp.lan</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.8.0_131-b11 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.8.0_131</nebula_Build_Java_Version>
+    <nebula_Module_Owner>jschneider@pivotal.io</nebula_Module_Owner>
+    <nebula_Module_Email>jschneider@pivotal.io</nebula_Module_Email>
+    <nebula_X_Compile_Target_JDK>1.8</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.8</nebula_X_Compile_Source_JDK>
+  </properties>
+  <url>https://github.com/micrometer-metrics/micrometer</url>
+  <scm>
+    <url>git@github.com:micrometer-metrics/micrometer.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>jkschneider</id>
+      <name>Jon Schneider</name>
+      <email>jschneider@pivotal.io</email>
+    </developer>
+  </developers>
+</project>

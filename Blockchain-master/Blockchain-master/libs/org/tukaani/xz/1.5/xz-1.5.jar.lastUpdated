@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Nov 13 13:31:02 IST 2018
+@default-spring-snapshots-https\://repo.spring.io/snapshot/.lastUpdated=1542096055182
+https\://repo.spring.io/snapshot/.error=Could not transfer artifact org.tukaani\:xz\:jar\:1.5 from/to spring-snapshots (https\://repo.spring.io/snapshot)\: Connect to repo.spring.io\:443 [repo.spring.io/35.241.58.96] failed\: Connection timed out\: connect
+https\://repo.spring.io/milestone/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1542096062808
+https\://repo.spring.io/milestone/.lastUpdated=1542096059025

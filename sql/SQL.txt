@@ -1,0 +1,17 @@
+
+CREATE EVENT stopElec
+ON SCHEDULE EVERY 1 MINUTE
+STARTS CURRENT_TIMESTAMP
+ENDS CURRENT_TIMESTAMP + INTERVAL 1 HOUR
+DO
+   update electioninfo set status='1' where etime<time(now()) and status='0';
+   
+   
+   
+CREATE EVENT startElec
+ON SCHEDULE EVERY 1 MINUTE
+STARTS CURRENT_TIMESTAMP
+ENDS CURRENT_TIMESTAMP + INTERVAL 1 HOUR
+DO 
+   update electioninfo set status='0' where stime<time(now()) and status='A';
+   

@@ -1,0 +1,15 @@
+com\hashfold\blockchain\config\BlockchainConfig.class
+com\hashfold\blockchain\service\Blockchain.class
+com\hashfold\blockchain\domain\Block.class
+com\hashfold\blockchain\domain\Transaction$TransactionBuilder.class
+com\hashfold\blockchain\model\TransactionResponse$TransactionResponseBuilder.class
+com\hashfold\blockchain\model\ChainResponse$ChainResponseBuilder.class
+com\hashfold\blockchain\domain\Block$BlockBuilder.class
+com\hashfold\blockchain\model\TransactionResponse.class
+com\hashfold\blockchain\model\MineResponse.class
+com\hashfold\blockchain\domain\Transaction.class
+com\hashfold\blockchain\model\ChainResponse.class
+com\hashfold\blockchain\util\BlockProofOfWorkGenerator.class
+com\hashfold\blockchain\model\MineResponse$MineResponseBuilder.class
+com\hashfold\blockchain\api\BlockchainController.class
+com\hashfold\blockchain\app\BlockchainApplication.class
